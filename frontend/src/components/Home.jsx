@@ -27,7 +27,7 @@ const Home = () => {
                     Efficiently track and manage student attendance with our digital solutions.
                 </p>
                 <div className="flex justify-around mb-8">
-                    <Link to="/teacher-login" className="w-1/3 p-4 cursor-pointer" data-aos="fade-right">
+                    <Link to="/login" className="w-1/3 p-4 cursor-pointer" data-aos="fade-right">
                         <img src={teachers1} alt="Teachers" className="rounded-md shadow-md" />
                         <h2 className="text-2xl font-semibold text-gray-700 mt-4">For Teachers</h2>
                         <p className="text-gray-600 mt-2">Easily mark and manage student attendance records.</p>
